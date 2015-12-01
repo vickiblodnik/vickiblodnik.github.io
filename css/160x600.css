@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.main {
+  width:160px;
+  height:600px;
+  background-color: #e2ece2;
+}
+
+
+
+.title {
+
+width: 150px;
+margin-left: 5px;
+margin-top: 40px;
+
+}
+
+.logo {
+width: 148px;
+
+/*padding: 21px;*/
+color: #fff;
+margin-top: 40px;
+float: left;
+margin-left: 5px;
+}
+
+
+.shopNow {
+
+  background-color:#839448;
+  color: #fff;
+  width: 130px;
+  height: 60px;
+  font-size: 16pt;
+  margin-left: 13px;
+  border-radius: 7px;
+  margin-top: 40px;
+  float: left;
+}
+
+
+#container{
+  width:160px;
+  height:80px;
+  position:relative;
+  float:left;
+  margin-top: 30px;
+
+}
+
+#container .prevButton{
+  height:72px;
+  width:68px;
+  position:absolute;
+  background:url('../images/buttonst2.png') no-repeat;
+/*  bottom:-75%;*/
+  margin-top:-36px;
+  cursor:pointer;
+  z-index:2000;
+  background-position:left top;
+  left:0
+}
+
+#container .prevButton:hover{ background-position:left bottom;left:0;}
+
+#container .nextButton{
+  height:72px;
+  width:68px;
+  position:absolute;
+  background:url('../images/buttonst2.png') no-repeat;
+/*  bottom:-75%;*/
+  margin-top:-36px;
+  cursor:pointer;
+  z-index:2000;
+  background-position:right top;
+  right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
+
+#container ul{
+  width:150px;
+  height:105px;
+  list-style:none outside none;
+  position:relative;
+  overflow:hidden;
+  margin-left: 10px;
+  margin-top: 4px;
+}
+
+#container li:first-child{
+  display:list-item;
+  position:absolute;
+}
+
+#container li{
+  position:absolute;
+  display:none;
+}
+
+

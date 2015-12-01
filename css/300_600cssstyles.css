@@ -1,0 +1,107 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.logo {
+width: 230px;
+padding: 35px;
+color: #fff;
+margin-top: 20px;
+}
+
+.title {
+padding-right: 50px;
+padding-left: 50px;
+padding-top: 25px;
+width: 200px;
+padding-bottom: 0px;
+
+}
+
+.center{
+	width:300px;
+	height:200px;
+	position:relative;
+}
+
+/*button { 
+    margin-top: -20px;
+    width: 100px;
+    height: 40px;
+    background-color: fff;
+    margin-left: 100px;
+} */
+
+.shopNow {
+  margin-top: -20px;
+	background-color:#839448;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	font-size: 13pt;
+	margin-left: 75px;
+	border-radius: 7px;
+}
+
+.main{
+	width:300px;
+	height:600px;
+	background-color: #e2ece2;
+}
+
+#container{
+	width:300px;
+	height:200px;
+	position:relative;
+}
+
+#container .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttonsT3.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#container .prevButton:hover{ background-position:left bottom;left:0;}
+
+#container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttonsT3.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
+
+#container ul{
+	width:250px;
+	height:200px;
+	list-style:none outside none;
+	position:relative;
+	overflow:hidden;
+}
+
+#container li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#container li{
+	position:absolute;
+	display:none;
+}
+
+

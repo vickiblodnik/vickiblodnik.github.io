@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.main {
+	width:728px;
+	height:90px;
+	background-color: #e2ece2;
+}
+
+
+
+.title {
+padding-right: 5px;
+padding-left: 15px;
+padding-top: 7px;
+width: 120px;
+padding-bottom: 0px;
+float: left;
+margin-left: 10px;
+
+}
+
+.logo {
+width: 148px;
+/*padding: 21px;*/
+color: #fff;
+margin-top: 13px;
+float: left;
+margin-left: 40px;
+}
+
+
+.shopNow {
+  margin-top: -60px;
+	background-color:#839448;
+	color: #fff;
+	width: 150px;
+	height: 40px;
+	font-size: 13pt;
+	margin-left: 205px;
+	border-radius: 7px;
+	float: left;
+}
+
+
+#container{
+	width:190px;
+	height:80px;
+	position:relative;
+	float:left;
+}
+
+#container .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttonst2.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#container .prevButton:hover{ background-position:left bottom;left:0;}
+
+#container .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttonst2.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+#container .nextButton:hover{background-position:right bottom;right:0;}
+
+#container ul{
+	width:120px;
+	height:80px;
+	list-style:none outside none;
+	position:relative;
+	overflow:hidden;
+	margin-left: 45px;
+	margin-top: 4px;
+	float: left;
+}
+
+#container li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#container li{
+	position:absolute;
+	display:none;
+}
+
+
