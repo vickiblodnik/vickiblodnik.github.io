@@ -1,0 +1,24 @@
+*{
+  font-family: helvetica;
+  margin:0;
+  padding:10px;
+}
+
+h1{
+  color: #534741;
+}
+p {
+  overflow: auto;
+  float: left;
+  font-size: 120pt;
+  padding: 5pt;
+  margin:5pt;
+  color: #837171;
+/*  background-color: #ece;*/
+}
+
+.container{
+  width: 500px;
+  height: 250px;
+    background-color: #bed3a1;
+}
