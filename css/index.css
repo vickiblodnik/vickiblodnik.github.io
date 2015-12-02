@@ -1,24 +1,37 @@
 *{
   font-family: helvetica;
-  margin:0;
-  padding:10px;
+}
+
+p{
+    color: #534741;
+    text-align: center;
 }
 
 h1{
   color: #534741;
+  padding: 5px;
+  padding-top: 15px;
 }
-p {
-  overflow: auto;
-  float: left;
-  font-size: 120pt;
-  padding: 5pt;
+.numbers {
+/*  overflow: auto;
+  float: left;*/
+  font-size: 75pt;
+/*  padding: 5pt;*/
   margin:5pt;
-  color: #837171;
+  color: #ffffff;
 /*  background-color: #ece;*/
 }
 
 .container{
   width: 500px;
-  height: 250px;
-    background-color: #bed3a1;
+  height: 350px;
+  background-color: #bed3a1;
+}
+
+.sections {
+  width: 125px;
+  overflow: auto;
+  float: left;
+  text-align: center;
+
 }
